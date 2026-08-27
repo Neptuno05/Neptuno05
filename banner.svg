@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Neptuno05 - Full-stack y DevOps">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050B1A"/>
+      <stop offset="45%" stop-color="#0B1E3D"/>
+      <stop offset="100%" stop-color="#1B3B6F"/>
+    </linearGradient>
+    <radialGradient id="planet" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#6FA8E8"/>
+      <stop offset="55%" stop-color="#2E6BB8"/>
+      <stop offset="100%" stop-color="#123A6B"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4A7FBF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4A7FBF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cut">
+      <rect x="0" y="0" width="1000" height="220" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cut)">
+    <rect width="1000" height="220" fill="url(#sky)"/>
+
+    <!-- estrellas -->
+    <g fill="#FFFFFF">
+      <circle cx="120" cy="42" r="1.6" opacity="0.85"/>
+      <circle cx="228" cy="168" r="1.1" opacity="0.6"/>
+      <circle cx="342" cy="66" r="1.4" opacity="0.7"/>
+      <circle cx="418" cy="184" r="1" opacity="0.5"/>
+      <circle cx="512" cy="30" r="1.7" opacity="0.9"/>
+      <circle cx="596" cy="150" r="1.2" opacity="0.65"/>
+      <circle cx="672" cy="52" r="1" opacity="0.55"/>
+      <circle cx="760" cy="192" r="1.5" opacity="0.75"/>
+      <circle cx="838" cy="88" r="1.1" opacity="0.6"/>
+      <circle cx="906" cy="36" r="1.6" opacity="0.8"/>
+      <circle cx="948" cy="146" r="1.2" opacity="0.6"/>
+      <circle cx="64" cy="120" r="1.3" opacity="0.7"/>
+      <circle cx="288" cy="106" r="0.9" opacity="0.45"/>
+      <circle cx="716" cy="120" r="0.9" opacity="0.45"/>
+    </g>
+
+    <!-- planeta -->
+    <circle cx="118" cy="110" r="120" fill="url(#glow)"/>
+    <circle cx="118" cy="110" r="66" fill="url(#planet)"/>
+    <path d="M 58 84 q 60 -14 120 4" stroke="#8FC2F5" stroke-width="3" fill="none" opacity="0.35"/>
+    <path d="M 54 112 q 64 -12 128 6" stroke="#8FC2F5" stroke-width="4" fill="none" opacity="0.28"/>
+    <path d="M 62 140 q 56 12 112 -6" stroke="#8FC2F5" stroke-width="3" fill="none" opacity="0.22"/>
+    <ellipse cx="118" cy="110" rx="104" ry="20" fill="none" stroke="#4A7FBF" stroke-width="3" opacity="0.5" transform="rotate(-18 118 110)"/>
+
+    <!-- texto -->
+    <text x="268" y="106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#FFFFFF" letter-spacing="1">Neptuno05</text>
+    <text x="271" y="146" font-family="Consolas, Menlo, monospace" font-size="20" fill="#8FC2F5" letter-spacing="3">FULL-STACK &#183; DEVOPS &#183; ANDROID</text>
+    <rect x="271" y="164" width="180" height="3" fill="#4A7FBF" rx="1.5"/>
+  </g>
+</svg>
